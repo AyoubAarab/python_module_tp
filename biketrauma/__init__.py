@@ -1,3 +1,2 @@
 def __version__(self): 
-        print("Instance Created")
-        
+        print("0.0.1")
