@@ -1,4 +1,4 @@
-import biketrauma
+import biketrauma_nmd
 
-df = biketrauma.Load_db().save_as_df()
-biketrauma.plot_location(biketrauma.get_accident(df))
+df = biketrauma_nmd.Load_db().save_as_df()
+biketrauma_nmd.plot_location(biketrauma_nmd.get_accident(df))
